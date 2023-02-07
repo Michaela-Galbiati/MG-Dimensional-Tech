@@ -2,7 +2,10 @@
     font-family: 'assinatura';
     src: url(january_shine/January\ Shine.otf) format('opentype');
   }
+html{
+  overflow-x: hidden;
 
+}
 body{
     background-color:#F5BB2C;
     overflow-x: hidden;
@@ -136,6 +139,6 @@ video{
 }
 @media (max-width: 768px) {
     video{
-        max-width: 450px;
+        max-width: 400px;
     }
 }

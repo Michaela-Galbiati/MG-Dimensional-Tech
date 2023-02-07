@@ -1,3 +1,8 @@
+
+html{
+  overflow-x: hidden;
+
+}
 body{
     background-color: #010e65;
     overflow-x: hidden;
@@ -125,6 +130,6 @@ video{
 }
 @media (max-width: 768px) {
     video{
-        max-width: 450px;
+        max-width: 400px;
     }
 }

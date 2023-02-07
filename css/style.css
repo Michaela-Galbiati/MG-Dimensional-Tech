@@ -29,7 +29,6 @@ svg{
 #menu {
   display: inline-flex;
   width: 100%;
-  height: 400px;
   margin-bottom: 40px; }
 
 #menutexto {
@@ -38,6 +37,7 @@ svg{
   text-align: center;
   vertical-align: center;
   padding-top: 95px;
+  padding-bottom: 100px;
   width: 100%; }
 
 #menutexto > h1 {
@@ -160,6 +160,7 @@ svg{
   text-align: justify;
 }
 .imagem{
+  justify-content: center;
   width: 400px;
   height: 400px;
   background-image: url(path7921.png);
@@ -180,26 +181,40 @@ svg{
 @media (max-width: 780px) {
   #proj1 {
     display: inline;
-    margin: 40px;
     margin: auto; }
   #proj3 {
     display: inline;
-    margin: 40px;
     margin: auto; }
   #proj2 {
     display: inline;
-    margin: 40px;
     margin: auto; }
   #proj4 {
     display: inline;
-    margin: 40px;
     margin: auto; }
-  #paragrafo {
+  .paragrafo {
     width: 400px;
     margin: auto; }
   #imagem {
     text-align: center;
-    margin: auto; } }
+    margin: auto;
+  }
+  #menu{
+    display: inline-flex;
+    flex-direction: column-reverse;
+  }
+  .abrir {
+    transform: rotate(0deg);}
+    #menuprinc {
+      text-align: center;
+      padding-top: 10px;
+      background-color: #9aaed2;
+      border: 1px solid #010e65; }
+      #menutexto{
+        padding-bottom:100px;
+      }
+
+
+}
 
 #footer {
   text-align: center;
