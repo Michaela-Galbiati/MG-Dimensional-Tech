@@ -147,4 +147,20 @@ video{
     video{
         max-width: 390px;
     }
+  }
+.etaps{
+  display: flex;
+  flex-wrap: wrap;
+}
+.etapasdesenv{
+  background-color: rgb(255, 225, 0);
+  padding: 10px;
+  color: black;
+  border-radius: 2px;
+}
+li{
+  list-style-type: decimal;
+  color: white;
+  margin-left: 40px;
+  font-size: 20px;
 }
