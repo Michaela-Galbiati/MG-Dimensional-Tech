@@ -216,7 +216,27 @@ svg{
 
 
 }
-
+@media (max-width: 980px) {
+  #proj1 {
+    display: inline;
+    margin: auto; }
+  #proj3 {
+    display: inline;
+    margin: auto; }
+  #proj2 {
+    display: inline;
+    margin: auto; }
+  #proj4 {
+    display: inline;
+    margin: auto; }
+  .paragrafo {
+    width: 400px;
+    margin: auto; }
+  #imagem {
+    text-align: center;
+    margin: auto;
+  }
+}
 #footer {
   text-align: center;
   background-color: #010e65;
