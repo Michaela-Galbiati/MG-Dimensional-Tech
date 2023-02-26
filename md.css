@@ -157,6 +157,7 @@ video{
   padding: 10px;
   color: black;
   border-radius: 2px;
+  cursor: pointer;
 }
 li{
   list-style-type: decimal;
