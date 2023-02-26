@@ -242,3 +242,12 @@ svg {
 .texto{
   padding: 10px;
 }
+
+.title{
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.types{
+  padding-left: 40px;
+  padding-top: 5px;
+}
